@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria | Codigo33</title>
+    <!-- CSS -->
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <section class="container">
+            <!-- Title -->
+            <div class="title">
+                <h2>Galería de Imágenes</h2>
+                <div class="underline"></div>
+            </div>
+            <!-- Gallery -->
+            <article class="review">
+                <div class="img-container">
+                    <img src="./img/abdallah.jpg" width="150px" height="150px" id="person-img" alt="Imagen perfil">
+                </div>
+                <h4 id="author">Abdallah Lebron</h4>
+                <p id="job">Developer</p>
+                <p id="info">I am a web developer, and my role revolves around crafting the digital experiences you encounter when you surf the web. I combine my creative flair with technical prowess to design, build, and maintain websites and web applications, ensuring they are functional, visually appealing, and user-friendly.</p>
+                <!-- prev - next Buttons -->
+                <div class="button-container">
+                    <button class="prev-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="44" height="44"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M15 6l-6 6l6 6" />
+                        </svg>
+                    </button>
+                    <button class="next-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="44" height="44"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M9 6l6 6l-6 6" />
+                        </svg>
+                    </button>
+                </div>
+                <!-- Random Button -->
+                <button class="random-btn">suprise me</button>
+            </article>
+        </section>
+    </main>
+
+    <!-- Javascript -->
+    <script src="app.js"></script>
+</body>
+</html>
